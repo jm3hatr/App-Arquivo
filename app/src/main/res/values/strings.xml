@@ -1,0 +1,215 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">AppArquivo</string>
+
+    <!-- SPLASH SCREEN -->
+    <string name="bem_vindo">Bem Vindo!</string>
+
+    <!-- ECRA INICIAL -->
+    <string name="deslizar_calendario">Deslize para a esquerda para ver calendário</string>
+    
+    <!-- Texto dos Botoes -->
+    <string name="site_adp">Ir para o Site</string>
+    <string name="pesquisa">Pesquisar documentos</string>
+    <string name="formulario_aquisicao">Aquisição de Arquivos</string>
+    <string name="formulario_visita">Pedidos de Visita</string>
+    <string name="contactos">Contactos</string>
+    
+    
+    
+    <!-- FORMULARIOS -->
+    <!-- Titulo Aquisicao de arquivos -->
+    <string name="titulo">Aquisição de Arquivos</string>
+
+    <!-- Texto inical -->
+    <string name="texto_inicial">A informação que vai inserir é fundamental para o desenvolvimento de todo o processo de aquisição pelo ADP de um fundo arquivístico (incorporação, doação…). É importante que ela seja rigorosa.</string>
+
+    <!-- Texto com ligacao ao Link dos procedimentos-->
+    <string name="texto_procedimentos">Antes de preencher, leia, por favor:</string>
+    <!-- Link para os precedimentos-->
+    <string name="linkinstrucoes">
+        <a href="http://www.adporto.dglab.gov.pt/index.php/features/procedimentos-normas">Procedimentos, e Orientações</a>
+    </string>
+
+    <!-- 1 Identificacao -->
+    <string name="identificacao">1. Identificação da entidade produtora/detentora</string>
+
+    <string name="nome">Nome</string>
+    <string name="morada">Morada</string>
+    <string name="telefone">Telefone</string>
+    <string name="fax">Fax</string>
+    <string name="email">Email</string>
+
+    <!--2 Documentacao -->
+    <string name="documentacao">2. Documentação</string>
+
+    <!-- 2.1 Ambito Cronologico -->
+    <string name="titulo_cronologico">2.1 Âmbito cronológico</string>
+
+    <string name="data_inicial">Data inicial</string>
+    <string name="data_final">Data final</string>
+
+    <!-- 2.2 Elementos de recuperacao de informacao -->
+    <string name="titulo_elementos">2.2 Elementos de recuperação de informação</string>
+
+    <string name="registos">Registos</string>
+    <string name="indices">Índices</string>
+    <string name="catalogos">Catálogos</string>
+    <string name="outros_checkbx">Outros</string>
+    <string name="outros_checktxt">Se escolheu "Outros", especifique (é obrigatório)</string>
+
+    <!-- 2.3 Metragem -->
+    <string name="titulo_metragem">2.3 Metragem (metros lineares)</string>
+
+    <string name="metragem_actual">Atual</string>
+    <string name="crescimento_anual">Crescimento anual</string>
+
+    <!-- 2.4 Nº e tipo de unidades de instalacao-->
+    <string name="titulo_unidades">2.4 Nº e tipo de unidades de instalação (em caso negativo, coloque o número 0)</string>
+
+    <string name="livros">Livros</string>
+    <string name="macos">Maços</string>
+    <string name="pastas">Pastas</string>
+    <string name="caixas">Caixas</string>
+    <string name="outras_unidades">Outros</string>
+
+    <!-- 2.5 Estado de Conservacao-->
+    <string name="titulo_conservacao">2.5 Estado de conservação</string>
+
+    <string name="bom">Bom</string>
+    <string name="regular">Regular</string>
+    <string name="mau">Mau</string>
+    <string name="mau_txt">Se escolheu "Mau", especifique (é obrigatório)</string>
+
+    <!-- 3 Deposito/Arquivo-->
+    <string name="deposito">3. Depósito/Arquivo</string>
+
+    <!-- 3.1 Localizacao-->
+    <string name="titulo_localizacao">3.1 Localização</string>
+
+    <string name="cave">Cave</string>
+    <string name="sotao">Sótão</string>
+    <string name="armazem">Armazém</string>
+    <string name="outra_localizacao">Outra</string>
+    <string name="outra_localizacao_txt">Se escolheu "Outra", especifique (é obrigatório)</string>
+
+    <!-- 3.2 Instalacao-->
+    <string name="titulo_instalacao">3.2 Instalação</string>
+
+    <string name="estantes">Estantes</string>
+    <string name="caixotes">Caixotes</string>
+    <string name="chao">Chão</string>
+
+    <!-- 4 Observacoes -->
+    <string name="obervacoes">4. Observações</string>
+
+
+    <!-- Botao ENVIAR -->
+    <string name="enviar_btn">Enviar</string>
+
+
+    <!-- Indicacoes de preechimento do Formulario de Aquisicao de Arquivos-->
+    <string name="observe">No preenchimento, observe, por favor, as seguintes indicações:</string>
+    <string name="parte1">Parte 1</string>
+    <string name="texto01">Responsável: indique o responsável pelo serviço ou instituição. Caso haja uma pessoa com as responsabilidades atribuídas para este processo (ver ponto 8 do link referido em cima), queira indicá-lo também.</string>
+
+    <string name="parte2">Parte 2</string>
+    <string name="texto021">2.1 - Âmbito cronológico: trata-se do período abrangido pela documentação. Se não for possível indicar datas exactas, dê-nos essa informação nas “observações”. Indique as datas completas no formato normalizado: ano-mês-dia, p. e., 2007-01-31.</string>
+    <string name="texto022">2.2 - Elementos de recuperação de informação: se existirem em formato electrónico, indique-nos o formato dos mesmos (texto, Word, Excel, base dados…). Se for uma aplicação proprietária, indique-nos o formato de saída (output) desses dados, se existir.</string>
+    <string name="texto023">2.3 - Metragem: a indicação actual é a da documentação a ser transferida (não incluir documentação eliminada nos termos legais); a indicação do crescimento reporta-se também à documentação a transferir posteriormente.</string>
+    <string name="texto025">2.5 - Estado de conservação: existência de fungos, insectos e/ou indique as causas da degradação, nomeadamente, acidente (incêndio, infiltração de água).</string>
+
+    <string name="parte3">Parte 3</string>
+    <string name="texto031">3.1 - Localização: se estiver repartida por mais do que um dos tipos de locais assinalados, indique nas observações qual a respectiva quantidade: em percentagem, número de unidades ou metros lineares.</string>
+
+
+    <!-- Strings para o texto que irá aparecer apenas no email de Aquisicao de Arquivos-->
+    <!-- 1 -->
+    <string name="pedido_nome">Nome: <xliff:g example="Joao" id="nome">%s</xliff:g></string>
+    <string name="pedido_morada">Morada: <xliff:g example="Porto" id="morada">%s</xliff:g></string>
+    <string name="pedido_telefone">Telefone: <xliff:g example="222 222 222" id="telefone">%s</xliff:g></string>
+    <string name="pedido_fax">Fax: <xliff:g example="220 046 201" id="fax">%s</xliff:g></string>
+    <string name="pedido_email">Email: <xliff:g example="email@email.pt" id="email">%s</xliff:g></string>
+    <!-- 2.1 -->
+    <string name="pedido_data_inicial">Data inicial: <xliff:g example="01/01/2019" id="dataInicial">%s</xliff:g></string>
+    <string name="pedido_data_final">Data final: <xliff:g example="01/12/2019" id="dataFinal">%s</xliff:g></string>
+    <!-- 2.2 -->
+    <string name="pedido_registos">Registos: <xliff:g example="sim" id="temRegistos">%b</xliff:g></string>
+    <string name="pedido_indices">Índices: <xliff:g example="sim" id="temIndices">%b</xliff:g></string>
+    <string name="pedido_catalogos">Catálogos: <xliff:g example="sim" id="temCatalogos">%b</xliff:g></string>
+    <string name="pedido_outros_elementos">Outros: <xliff:g example="sim" id="temOutrosElementos">%b</xliff:g></string>
+    <string name="pedido_outros_elementos_txt">Outros elementos: <xliff:g example="sim" id="outrosElementos">%s</xliff:g></string>
+    <!-- 2.3 -->
+    <string name="pedido_metragem_actual">Actual: <xliff:g example="metros lineares" id="metragem_actual">%s</xliff:g></string>
+    <string name="pedido_crescimento_anual">Crescimento anual: <xliff:g example="metros lineares" id="crescimento_anual">%s</xliff:g></string>
+    <!-- 2.4 -->
+    <string name="pedido_livros">Livros: <xliff:g example="5" id="livros">%s</xliff:g></string>
+    <string name="pedido_macos">Maços: <xliff:g example="5" id="macos">%s</xliff:g></string>
+    <string name="pedido_pastas">Pastas: <xliff:g example="5" id="pastas">%s</xliff:g></string>
+    <string name="pedido_caixas">Caixas: <xliff:g example="sim" id="caixas">%s</xliff:g></string>
+    <string name="pedido_outros_unidades">Outros: <xliff:g example="5" id="outrosUnidades">%s</xliff:g></string>
+    <!-- 2.5 -->
+    <string name="pedido_bom">Bom: <xliff:g example="sim" id="temBom">%b</xliff:g></string>
+    <string name="pedido_regular">Regular: <xliff:g example="sim" id="temRegular">%b</xliff:g></string>
+    <string name="pedido_mau">Mau: <xliff:g example="sim" id="temMau">%b</xliff:g></string>
+    <string name="pedido_mau_texto">Descrição: <xliff:g example="descricao" id="temMauTxt">%s</xliff:g></string>
+    <!-- 3.1 -->
+    <string name="pedido_cave">Cave: <xliff:g example="sim" id="temCave">%b</xliff:g></string>
+    <string name="pedido_sotao">Sótão: <xliff:g example="sim" id="temSotao">%b</xliff:g></string>
+    <string name="pedido_armazem">Armazém: <xliff:g example="sim" id="temArmazem">%b</xliff:g></string>
+    <string name="pedido_outra_localizao">Outra: <xliff:g example="sim" id="temOutraLocalizacao">%b</xliff:g></string>
+    <string name="pedido_outra_localizacao_texto">Descrição: <xliff:g example="descricao" id="temOutraLocalizacaoTxt">%s</xliff:g></string>
+    <!-- 3.2 -->
+    <string name="pedido_estantes">Estantes: <xliff:g example="sim" id="temEstantes">%b</xliff:g></string>
+    <string name="pedido_caixotes">Caixotes: <xliff:g example="sim" id="temCaixotes">%b</xliff:g></string>
+    <string name="pedido_chao">Chão: <xliff:g example="sim" id="temChao">%b</xliff:g></string>
+    <!-- 4 -->
+    <string name="pedido_observacoes">Observações: <xliff:g example="sim" id="observacoes">%s</xliff:g></string>
+
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- Actividade do Formulario do Pedido de Visita -->
+    <string name="visita_titulo">Pedido de Visita</string>
+    <string name="notas_preenchimento">Notas de preenchimento</string>
+    <string name="notas01">1. Todas as instituições que pretendam visitas ao Arquivo Distrital do Porto, deverão preencher este formulário e enviá-lo com pelo menos 15 dias de antecedência.</string>
+    <string name="notas02">2. O número máximo de participantes por visita é de 15. Caso este número seja excedido serão organizadas várias visitas.</string>
+    <string name="notas03">3. Após o preenchimento, clique em "Enviar" para submeter automaticamente o formulário preenchido para o nosso e-mail.</string>
+
+    <!-- 1 -->
+    <string name="organismo_titulo">1. Organismo proponente</string>
+    <string name="pessoa_responsavel">Pessoa responsável pela visita </string>
+    <string name="telemovel">Telemóvel</string>
+
+    <!-- 2 -->
+    <string name="info_visita">2. Informações sobre a visita</string>
+    <string name="grupo01">2.1 Grupo 1</string>
+    <string name="numero_pessoas">N.º de pessoas (máximo 15)</string>
+    <string name="data_pretendida">Data pretendida</string>
+    <string name="hora_pretendida">Hora pretendida</string>
+    <string name="grupo02">2.2 Grupo 2</string>
+    <string name="grupo03">2.3 Grupo 3</string>
+
+    <string name="acao_esperada">Ação esperada do ADP</string>
+
+    <!-- Spinner GRUPO 1 -->
+    <string name="pedido_pessoa_responsavel">Pessoa responsável pela visita: <xliff:g example="Joao" id="pessoa">%s</xliff:g></string>
+
+    <string-array name="spinner_grupo">
+        <item>Selecione uma opção</item>
+        <item>Visita de estudo genérica</item>
+        <item>Visita ao edifício e serviços de arquivo</item>
+        <item>Visita orientada para documentação específica</item>
+        <item>Práticas e processos administrativos</item>
+        <item>Conservação e restauro</item>
+        <item>Unidade de transferência de suporte/digitalização</item>
+    </string-array>
+
+
+    <!-- Strings para o texto que irá aparecer apenas no email de Pedido de Visita-->
+    <string name="pedido_telemovel">Telemóvel: <xliff:g example="910 000 000" id="telemovel">%s</xliff:g></string>
+    <string name="pedido_numero_pessoas">Nº de pessoas: <xliff:g example="15" id="pessoas">%s</xliff:g></string>
+    <string name="pedido_data_pretendida">Data pretendida: <xliff:g example="15/01/2019" id="data_pretendida">%s</xliff:g></string>
+    <string name="pedido_hora_pretendida">Hora pretendida: <xliff:g example="14:00" id="hora_pretendida">%s</xliff:g></string>
+    <string name="pedido_acao_esperada">Ação esperada do ADP: <xliff:g example="Visita de estudo" id="acao_esperada">%s</xliff:g></string>
+    
+
+</resources>

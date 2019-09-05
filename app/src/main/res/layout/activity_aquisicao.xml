@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AquisicaoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:text="@string/titulo"/>
+
+-----------------------------------------------------------------
+        <!-- INSTRUCOES DE PREENCHIMENTO-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/texto_inicial"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/texto_procedimentos"/>
+
+        <TextView
+            android:id="@+id/link_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="@string/linkinstrucoes"/>
+
+
+----------------------------------------------------------------------------------
+
+        <!-- 1 IDENTIFICAÇÃO-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/identificacao"/>
+
+        <EditText
+            android:id="@+id/nomeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:maxLength="50"
+            android:inputType="textCapWords"
+            android:hint="@string/nome"/>
+
+        <EditText
+            android:id="@+id/moradaTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:inputType="textCapWords"
+            android:hint="@string/morada"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/telefoneTxt"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:maxLength="15"
+                android:inputType="phone"
+                android:hint="@string/telefone"/>
+
+            <EditText
+                android:id="@+id/faxTxt"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="12dp"
+                android:maxLength="15"
+                android:inputType="phone"
+                android:hint="@string/fax"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/emailTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:maxLength="50"
+            android:inputType="textWebEmailAddress"
+            android:hint="@string/email"/>
+
+
+        <!--2.1 DATAS-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/documentacao"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="@string/titulo_cronologico"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/data_inicial_Txt"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:maxLength="10"
+            android:inputType="date"
+            android:hint="@string/data_inicial"/>
+
+        <EditText
+            android:id="@+id/data_final_Txt"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:maxLength="10"
+            android:inputType="date"
+            android:hint="@string/data_final"/>
+
+    </LinearLayout>
+
+
+        <!-- 2.2 CHECK BOX-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="@string/titulo_elementos"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <CheckBox
+                android:id="@+id/registos_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registos"/>
+
+            <CheckBox
+                android:id="@+id/indices_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="@string/indices"/>
+
+            <CheckBox
+                android:id="@+id/catalogos_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="@string/catalogos"/>
+
+            <CheckBox
+                android:id="@+id/outros_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="@string/outros_checkbx"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/outros_checkTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="12sp"
+            android:inputType="textCapWords"
+            android:hint="@string/outros_checktxt"/>
+
+
+
+        <!-- 2.3 METRAGEM-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="@string/titulo_metragem"/>
+
+        <EditText
+            android:id="@+id/metragem_actualTxt"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:hint="@string/metragem_actual"/>
+
+        <EditText
+            android:id="@+id/crescimento_anualTxt"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:hint="@string/crescimento_anual"/>
+
+
+        <!-- 2.4 NÚMERO DE UNIDADES-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="@string/titulo_unidades"/>
+
+        <EditText
+            android:id="@+id/livrosTxt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:maxLength="20"
+            android:inputType="textCapWords"
+            android:hint="@string/livros"/>
+
+        <EditText
+            android:id="@+id/macosTxt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:maxLength="20"
+            android:inputType="textCapWords"
+            android:hint="@string/macos"/>
+
+        <EditText
+            android:id="@+id/pastasTxt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:maxLength="20"
+            android:inputType="textCapWords"
+            android:hint="@string/pastas"/>
+
+        <EditText
+            android:id="@+id/caixasTxt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:maxLength="20"
+            android:inputType="textCapWords"
+            android:hint="@string/caixas"/>
+
+        <EditText
+            android:id="@+id/outras_unidadesTxt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:maxLength="30"
+            android:inputType="textCapWords"
+            android:hint="@string/outras_unidades"/>
+
+
+
+        <!-- 2.5 ESTADO DE CONSERVACAO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="@string/titulo_conservacao"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <CheckBox
+            android:id="@+id/bom_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bom"/>
+
+        <CheckBox
+            android:id="@+id/regular_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="@string/regular"/>
+
+        <CheckBox
+            android:id="@+id/mau_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="@string/mau"/>
+
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/mauTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="12sp"
+            android:maxLength="50"
+            android:inputType="textCapWords"
+            android:hint="@string/mau_txt"/>
+
+
+        <!-- 3.1 LOCALIZACAO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/deposito"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="@string/titulo_localizacao"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <CheckBox
+            android:id="@+id/cave_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cave"/>
+
+        <CheckBox
+            android:id="@+id/sotao_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="@string/sotao"/>
+
+        <CheckBox
+            android:id="@+id/armazem_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="@string/armazem"/>
+
+        <CheckBox
+            android:id="@+id/outra_localizacao_checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="@string/outra_localizacao"/>
+
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/outra_localizacaoTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="12sp"
+            android:inputType="textCapWords"
+            android:maxLength="50"
+            android:hint="@string/outra_localizacao_txt"/>
+
+
+
+        <!-- 3.2 INSTALACAO-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="@string/titulo_instalacao"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <CheckBox
+            android:id="@+id/estantes_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/estantes"/>
+
+        <CheckBox
+            android:id="@+id/caixotes_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="@string/caixotes"/>
+
+        <CheckBox
+            android:id="@+id/chap_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="@string/chao"/>
+
+    </LinearLayout>
+
+
+        <!-- 4 Observacoes -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/obervacoes"/>
+
+        <EditText
+            android:id="@+id/observacoesTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:maxLength="200"
+            android:inputType="textMultiLine"/>
+
+        <!-- Butao Enviar -->
+        <Button
+            android:id="@+id/enviarBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:onClick="fazerPedido"
+            android:text="@string/enviar_btn" />
+
+        <!-- Texto final com indicaçoes de preenchimento -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/observe"/>
+        <!--Parte1-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:text="@string/parte1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/texto01"/>
+        <!--Parte2-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:text="@string/parte2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/texto021"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/texto022"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/texto023"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/texto025"/>
+        <!--Parte3-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:text="@string/parte3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="70dp"
+            android:text="@string/texto031"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            android:text="Arquivo Distrital do Porto"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
